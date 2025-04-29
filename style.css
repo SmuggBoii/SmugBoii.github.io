@@ -11,13 +11,30 @@ body {
 }
 
 header {
-    background-color: red;
+    display: flex;
+    background-color: rgb(121, 0, 165);
 }
 
 main {
-    background-color: blue;
+    background-color: rgb(53, 188, 222);
 }
 
 footer {
-    background-color: green;
+    background-color: rgb(39, 39, 39);
+    text-shadow: 10px;
+}
+
+.overskrift-wrapper {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    background-color: rgb(53, 188, 222);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 20px rgb(140, 0, 255), 0 0 20px rgb(190, 79, 255) ;
+    padding-right: 200px;
 }
