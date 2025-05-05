@@ -87,7 +87,7 @@ footer {
     border-radius: 5px;
     word-break:break-all;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 60px;
     font-size: 20px;
     text-shadow: 0 0 20px rgb(0, 255, 238), 0 0 20px rgb(0, 255, 238);
     font-family: "Orbitron", sans-serif;
