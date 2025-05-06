@@ -1,0 +1,104 @@
+header {
+    display: flex;
+}
+
+.overskrift-wrapper {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 20px rgb(0, 255, 238), 0 0 20px rgb(0, 255, 238) ;
+    padding-right: 80px;
+}
+
+.text {
+    margin-right: 70px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color:dimgray;
+    border-radius: 10px;
+    padding: 20px;
+    text-shadow: 0 0 20px rgb(0, 255, 238), 0 0 20px rgb(0, 255, 238);
+    font-size: 15px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+main {
+    font-size: 30px;
+    padding: 0;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    text-shadow: 0 0 20px rgb(0, 255, 238), 0 0 20px rgb(0, 255, 238) ;
+}
+
+
+.sidenav{
+    margin-bottom: 100px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-top: 210px;
+    border-radius: 5px;
+    word-break:break-all;
+    flex-direction: column;
+    padding-top: 20px;
+    font-size: 20px;
+    text-shadow: none;
+    box-shadow:#c24bfd;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+aside{
+    display: flex;
+    unicode-bidi: isolate;
+    flex-direction: column;
+}
+
+button#menuBtn {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    color: #5c2a7d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    word-break: break-all;
+}
+
+.closebtn {
+    position: fixed;
+}
