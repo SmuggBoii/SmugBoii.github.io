@@ -1,1 +1,1 @@
-# SmugBoii.github.io
+# SmuggBoii.github.io
