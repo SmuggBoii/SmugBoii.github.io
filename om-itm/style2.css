@@ -139,7 +139,7 @@ body {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #5c2a7d;
   }
   
   .dropdown-content {
